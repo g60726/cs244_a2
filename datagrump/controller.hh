@@ -36,7 +36,6 @@ public:
 
   /* How long to wait (in milliseconds) if there are no acks
      before sending one more datagram */
-  void timeout();
   unsigned int timeout_ms( void );
 };
 
